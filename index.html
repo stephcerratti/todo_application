@@ -4,15 +4,18 @@
   <head>
     <title>Get This Done!</title>
 
+    <!-- Fonts embedd code -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+
     <!-- Styles -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <h1>Get This Stuff Done!</h1>
-
-    
+    <header>
+      <h1>Get This Stuff Done!</h1>
+    </header>
     <!-- add a to-do item -->
     <div class="add-todo">
       <input id="item" type="text" placeholder="Enter an activity..">
@@ -20,32 +23,14 @@
     </div>
 
     <div class="todo-lists">
-
-    <!-- tasks to be completed -->
+      <!-- tasks to be completed -->
       <ul class="todo" id="todo"></ul>
 
       <!-- completed tasks -->
       <ul class="todo" id="completed"></ul>
+    </div>
+    
 
-    </div>
-    
-    <!-- <div>
-      <button onclick="handlers.changeTodo()">Change Todo</button>
-      <input id="changeTodoPositionInput" type="number">
-      <input id="changeTodoTextInput" type="text">
-    </div>
-    
-    <div>
-      <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
-      <input id="toggleCompletedPositionInput" type="number">
-    </div>
-
-     <div>
-      <button onclick="handlers.toggleAll()">Toggle All</button>
-    </div>
-    
-    <ul>
-    </ul> -->
 
     <!-- JavaScript -->
     <script src="script.js"></script>

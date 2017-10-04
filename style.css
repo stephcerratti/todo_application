@@ -1,4 +1,51 @@
+body {
+	background: #A9CCE3;
+}
 
+body, input, button {
+	font-family: 'Quicksand', sans-serif;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	padding: 20% 0 10% 0;
+
+}
+
+h1 {
+	font-size: 45px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.add-todo {
+	margin: 0 auto;
+	background: white;
+	width: 60%;
+	height: 50px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 4px rgba(44,62,80,0.15);
+}
+
+.add-todo input {
+	width: 80%;
+	height: 90%;
+	float: left;
+	background: white;
+	color: #5499C7;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border: 0px;
+	box-shadow: none;
+	outline: none;
+}
+
+.add-todo input::-webkit-input-placeholder {
+	color: #7FB3D5;
+}
 
 ul.todo {
 	width: 80%
@@ -11,5 +58,5 @@ ul.todo li {
 	position: absolute;;
 	/*top: 50%;
 	left: 50%;*/
-	
+
 }
